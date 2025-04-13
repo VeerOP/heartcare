@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs - HeartCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="blur-bg"></div>
+    <header>
+        <nav class="glass-nav">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <a href="index.html"><span>HeartCare</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://hdd-u6pz.onrender.com/" target="_blank">Predict</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login-register.html" class="btn-login">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="faq-page">
+        <section class="faq-hero glass-card">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to common questions about HeartCare and heart disease prediction.</p>
+        </section>
+
+        <div class="faq-container">
+            <div class="faq-search glass-card">
+                <div class="search-container">
+                    <input type="text" placeholder="Search FAQs...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+
+            <div class="faq-categories">
+                <button class="category-btn active" data-category="all">All Questions</button>
+                <button class="category-btn" data-category="prediction">Prediction</button>
+                <button class="category-btn" data-category="account">Account</button>
+                <button class="category-btn" data-category="privacy">Privacy</button>
+                <button class="category-btn" data-category="technical">Technical</button>
+            </div>
+
+            <div class="faq-accordion">
+                <div class="faq-item glass-card" data-category="prediction">
+                    <div class="faq-question">
+                        <h3>How accurate is the HeartCare prediction model?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our prediction model has been clinically validated with an accuracy of approximately 92% based on retrospective studies. However, accuracy can vary depending on the completeness and accuracy of the information provided. It's important to note that no predictive model is 100% accurate, and this tool is not a substitute for professional medical diagnosis.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item glass-card" data-category="prediction">
+                    <div class="faq-question">
+                        <h3>What data do I need to provide for a prediction?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To get the most accurate prediction, you'll need to provide information including your age, gender, blood pressure, cholesterol levels, resting ECG results, maximum heart rate achieved during exercise, and whether you experience exercise-induced angina. The more complete and accurate your information, the more reliable your risk assessment will be.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item glass-card" data-category="technical">
+                    <div class="faq-question">
+                        <h3>How does the prediction algorithm work?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>HeartCare uses an ensemble of machine learning models trained on thousands of patient records from leading medical institutions. The algorithm analyzes patterns in your input data and compares them to known cases of heart disease. Our models continuously improve as we gather more data and feedback from medical professionals.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item glass-card" data-category="privacy">
+                    <div class="faq-question">
+                        <h3>Is my health data secure with HeartCare?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely. We take data privacy and security very seriously. All health data is encrypted both in transit and at rest. We comply with all applicable health data protection regulations (HIPAA, GDPR, etc.). You can choose to have your prediction data automatically deleted after your session, or stored securely if you create an account.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item glass-card" data-category="account">
+                    <div class="faq-question">
+                        <h3>Do I need an account to use HeartCare?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, you can use our prediction tool without creating an account. However, creating a free account allows you to save your results, track changes over time, and receive personalized recommendations. Account holders also get access to additional features like progress tracking and reminder systems.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item glass-card" data-category="prediction">
+                    <div class="faq-question">
+                        <h3>What should I do if I get a high-risk result?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A high-risk result suggests you should consult with a healthcare professional as soon as possible. We recommend scheduling an appointment with your primary care physician or a cardiologist. Our results page provides a detailed report you can share with your doctor, and we can help you locate specialists in your area if needed.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item glass-card" data-category="technical">
+                    <div class="faq-question">
+                        <h3>Can I use HeartCare on my mobile device?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, HeartCare is fully responsive and works on all modern smartphones and tablets. We also offer mobile apps for iOS and Android that provide additional features like health data integration from other apps and devices, reminder notifications, and offline access to your health history.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item glass-card" data-category="account">
+                    <div class="faq-question">
+                        <h3>Is there a cost to use HeartCare?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The basic heart disease risk assessment is completely free. We offer premium subscriptions that provide additional features like ongoing monitoring, integration with health devices, personalized health plans, and direct access to cardiac nurses for questions. However, the core prediction functionality will always remain free to ensure broad accessibility.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-contact glass-card">
+                <h2>Still have questions?</h2>
+                <a href="contact.html" class="btn-primary">Contact Us</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>HeartCare</h3>
+                <p>Empowering you with knowledge to fight heart disease through early detection.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://hdd-u6pz.onrender.com/">Prediction</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 HeartCare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // FAQ accordion functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                const answer = item.querySelector('.faq-answer');
+                const icon = question.querySelector('i');
+                
+                // Close all other open items
+                document.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('active')) {
+                        otherItem.classList.remove('active');
+                        otherItem.querySelector('.faq-answer').style.maxHeight = null;
+                        otherItem.querySelector('i').classList.remove('fa-chevron-up');
+                        otherItem.querySelector('i').classList.add('fa-chevron-down');
+                    }
+                });
+                
+                // Toggle current item
+                item.classList.toggle('active');
+                
+                if (item.classList.contains('active')) {
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                } else {
+                    answer.style.maxHeight = null;
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        });
+        
+        // FAQ category filtering
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const category = btn.getAttribute('data-category');
+                
+                // Update active button
+                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                // Filter items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    if (category === 'all' || item.getAttribute('data-category') === category) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
